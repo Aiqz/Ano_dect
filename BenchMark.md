@@ -12,7 +12,7 @@
 
 <img src="figure/image-20220111173058753.png" alt="image-20220111173058753" style="zoom:33%;" />
 
-<img src="figure/image-20220112100548496.png" alt="image-20220112100548496" style="zoom: 67%;" />
+<img src="figure/image-20220112100548496.png" alt="image-20220112100548496" style="zoom: 33%;" />
 
 ### BTAD
 
