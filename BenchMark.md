@@ -10,9 +10,9 @@
 
 ​	Defect Anomaly
 
-<img src="/Users/aqz/Library/Application Support/typora-user-images/image-20220111173058753.png" alt="image-20220111173058753" style="zoom:33%;" />
+<img src="figure/image-20220111173058753.png" alt="image-20220111173058753" style="zoom:33%;" />
 
-<img src="/Users/aqz/Library/Application Support/typora-user-images/image-20220112100548496.png" alt="image-20220112100548496" style="zoom: 67%;" />
+<img src="figure/image-20220112100548496.png" alt="image-20220112100548496" style="zoom: 67%;" />
 
 ### BTAD
 
@@ -22,7 +22,7 @@
 
 ​	pixel-wise
 
-<img src="/Users/aqz/Library/Application Support/typora-user-images/image-20220111174257429.png" alt="image-20220111174257429" style="zoom: 33%;" />
+<img src="figure/image-20220111174257429.png" alt="image-20220111174257429" style="zoom: 33%;" />
 
 ### MNIST / Fashion MNIST
 
