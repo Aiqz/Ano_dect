@@ -69,11 +69,22 @@
 
 * **PaDiM**.    in    PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization 2020
   * MVTec AD: 97.900(Detection AUROC); 97.500(Segmentation AUROC)
+  
 * **CFlOW-AD**.    in    "CFLOW-AD: Real-Time Unsupervised Anomaly Detection with Localization via Conditional Normalizing Flows" 2021
   * MVTec AD: 98.260(Detection AUROC); 98.620(Segmentation AUROC)
+  
 * **FastFlow**.    in    "FastFlow: Unsupervised Anomaly Detection and Localization via 2D Normalizing Flows" 2021
+  
   * MVTec AD: 99.400(Detection AUROC); 98.500(Segmentation AUROC)
   * CIFAR10: 0.667
+  
+  > 2D解释：
+  >
+  > ​    论文中说是使用2D flow结构，然而在查看RealNVP论文源码之后，发现原始的Flow结构就是属于2D结构，故产生强调2DFlow结构的疑问。
+  >
+  > ​     后续调研发现，其对比方法是基于之前将Flow用到Anomaly Detection中的方法，例如DifferNet(2020)。在这些已有工作中，Flow结构采用FC结构，即1DFlow。究其原因是文章将Flow模块接到Representation网络之后做分布变换，而一般Representation提取网络输出都是特征向量（即1D向量），所以使用1DFlow是比较自然的做法。
+  >
+  > ​    回到FastFlow，文章提出需要保留图片局部特征结构，所以在特征提取阶段，并未使用最终1D特征向量，而是使用中间层具有2D结构的特征作为Flow的输入，从而可以使用2DFlow结构，即卷积操作。也就是原始的Flow结构。
 
 ### Surpervised
 

@@ -59,4 +59,13 @@
 
 * How to compute image-level(Detection) and pixel-level(Segmentation) AUC?
 
+  * Image-level
+
+  * Pixel-level
+
+    sliding window method
+
 * Other data partition methods for regular dataset like MNIST/CIFAR10?
+
+
+
