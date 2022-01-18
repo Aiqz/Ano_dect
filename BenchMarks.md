@@ -65,7 +65,9 @@
 ## Evaluation Metrics
 
 * Receiver operating characteristic curve (AUROC)
-
+* Anomaly score
+  * Detection: single one for each input test image.
+  * Segmentation: for each pixel.
 
 
 ## SOTA methods
@@ -74,15 +76,9 @@
 
 * **AnoGAN**. 	in   "Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery" 2017
 
-  
-
 * **F-AnoGAN**.    in  "f-AnoGAN: Fast unsupervised anomaly detection with generative adversarial networks" 2018
 
-  
-
 * **DAGMM**.    in    "Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection"  2018 ICLR
-
-  
 
 * **MemAE**.   in    "Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection" 2019 ICCV
 
@@ -111,4 +107,8 @@
 ### Surpervised
 
 ### Smi-supervised
+* **DifferNET** "Same But DifferNet:Semi-Supervised Defect Detection with Normalizing Flows" 2020 WACV
 
+### Self-supervised
+* **Patch SVDD** in "Patch SVDD: Patch-level SVDD for anomaly detection and segmentation." ACCV 2020
+* **CutPaste**  in "CutPaste: Self-Supervised Learning for Anomaly Detection and Localization" 2021

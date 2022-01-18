@@ -41,9 +41,9 @@
 
   * Recall and Precision
     $$
-    Recall = TPR\\
-    Precision = \frac{TP}{TP+FP}\\
-    Accuracy(ACC) = \frac{TP+TN}{TP+TN+FN+FP}\\
+    Recall = TPR \\
+    Precision = \frac{TP}{TP+FP} \\
+    Accuracy(ACC) = \frac{TP+TN}{TP+TN+FN+FP} \\
     F-score = \frac{(a^2+1)Precision*Recall}{a^2(Precision+Recall)}
     $$
 
@@ -63,6 +63,8 @@
 
   * Pixel-level
 
+    $p(x)$
+    
     sliding window method
 
 * Other data partition methods for regular dataset like MNIST/CIFAR10?
