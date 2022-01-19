@@ -60,14 +60,23 @@
 * How to compute image-level(Detection) and pixel-level(Segmentation) AUC?
 
   * Image-level
+  
+    **Reconstruction-based method** 
+      &emsp;使用误差作为anomaly score，给定score阈值，得到ROC以及AUC。
+
+    **Representation-based method**
+    &emsp;使用特征提取结构提取样本的特征向量，然后利用一些非参方法，比如KDE，GDE等构造一个分布。则给定另外一个测试样本$x$，可以得到$p(x)$或者$\log p(x)$，进一步可以据此得到一个反比的anomaly score。然后给定一个socre阈值，得到ROC，最后利用插值得到AUC。
 
   * Pixel-level
+
+    **Reconstruction-based method** pixel-wise reconstruction error
 
     $p(x)$
     
     sliding window method
 
 * Other data partition methods for regular dataset like MNIST/CIFAR10?
+  
 
 
 

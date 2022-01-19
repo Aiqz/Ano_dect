@@ -108,7 +108,9 @@
 
 ### Smi-supervised
 * **DifferNET** "Same But DifferNet:Semi-Supervised Defect Detection with Normalizing Flows" 2020 WACV
+  * ROC: Anomaly score based on $\log p(x)$ or $\log p(z)$; based on a scoring function, gievn a threshold $\theta$, get ROC curve.
 
 ### Self-supervised
 * **Patch SVDD** in "Patch SVDD: Patch-level SVDD for anomaly detection and segmentation." ACCV 2020
 * **CutPaste**  in "CutPaste: Self-Supervised Learning for Anomaly Detection and Localization" 2021
+  * https://github.com/Runinho/pytorch-cutpaste Unofficial work in progress PyTorch reimplementation
