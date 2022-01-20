@@ -65,9 +65,13 @@
 ## Evaluation Metrics
 
 * Receiver operating characteristic curve (AUROC)
+* Per-region-overlap score(PRO-score)
+
 * Anomaly score
   * Detection: single one for each input test image.
   * Segmentation: for each pixel.
+
+* Mahalanobis distance
 
 
 ## SOTA methods
