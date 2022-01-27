@@ -94,6 +94,8 @@
   
 * **CFlOW-AD**.    in    "CFLOW-AD: Real-Time Unsupervised Anomaly Detection with Localization via Conditional Normalizing Flows" 2021
   * MVTec AD: 98.260(Detection AUROC); 98.620(Segmentation AUROC)
+
+* **CS-Flow**. in "Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection" 2022, WACV
   
 * **FastFlow**.    in    "FastFlow: Unsupervised Anomaly Detection and Localization via 2D Normalizing Flows" 2021
   
